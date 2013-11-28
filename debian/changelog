@@ -1,3 +1,9 @@
+cm-api (5.0.0-2~bbc68+1) stable; urgency=low
+
+  * Backport for Debian Squeeze by BlaBlaCar
+
+ -- Jean Baptiste Favre <jean.baptiste.favre@blablacar.com>  Thu, 28 Nov 2013 20:52:03 +0100
+
 cm-api (5.0.0-1) unstable; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git
