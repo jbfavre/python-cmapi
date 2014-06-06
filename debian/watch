@@ -1,0 +1,2 @@
+version=3
+https://github.com/cloudera/cm_api/commits/master /cloudera/cm_api/commit/([\w].*) debian debian/orig-tar.sh
