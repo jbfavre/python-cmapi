@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --with python2 --buildsystem=python_distutils
+	dh $@ --with python2 --buildsystem=pybuild
 
 override_dh_auto_test:
 	PYTHONPATH=src python -m unittest discover src/cm_api_tests
