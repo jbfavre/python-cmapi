@@ -1,12 +1,25 @@
 Source: cm-api
-Maintainer: Cloudera, Inc. <scm-users@cloudera.org>
+Maintainer: Jean Baptiste Favre <jean-baptiste.favre@blablacar.com>
 Section: python
 Priority: optional
-Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
-Standards-Version: 3.9.1
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), python-setuptools, debhelper (>= 7.4.3)
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.6
+Description: Cloudera Manager Python API client
+ Cloudera Manager is a management frontend for CDH (Cloudera Distribution
+ Including Apache Hadoop)
+ .
+ This package provides all the source, examples and documentation you need
+ to easily build a Cloudera Manager client in Python.
 
 Package: python-cm-api
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
-Description: Cloudera Manager API client
-
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Cloudera Manager API client (Python 2)
+ Cloudera Manager is a management frontend for CDH (Cloudera Distributed 
+ Hadoop).
+ .
+ This package provides all the source, examples and documentation you need
+ to easily build a Cloudera Manager client in Python.
+ .
+ This is the Python 2 version of the package.
