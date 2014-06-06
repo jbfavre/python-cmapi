@@ -3,9 +3,3 @@ cm-api (5.0.0-2~bbc72+1) stable; urgency=low
   * Backport for Debian Wheezy by BlaBlaCar
 
  -- Jean Baptiste Favre <jean-baptiste.favre@blablacar.com>  Thu, 28 Nov 2013 20:48:54 +0100
-
-cm-api (5.0.0-1) unstable; urgency=low
-
-  * source package automatically created by stdeb 0.6.0+git
-
- -- Cloudera, Inc. <scm-users@cloudera.org>  Thu, 28 Nov 2013 20:47:12 +0100
